@@ -1,0 +1,67 @@
+#alquiler {
+  max-width: 1000px;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+  }
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("../img/img2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+body {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.116);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-price {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1d4ed8;
+}
+
+.card-extra {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+nav {
+  
+ position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+h2 {
+  color: white;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+} 
+
+.hero-content {
+  min-height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
